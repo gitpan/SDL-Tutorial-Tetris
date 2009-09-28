@@ -6,7 +6,7 @@ use SDL::Tutorial::Tetris::Controller::Keyboard;
 use SDL::Tutorial::Tetris::Controller::CPUSpinner;
 use SDL::Tutorial::Tetris::Controller::Game;
 
-our $VERSION = 0.01;
+our $VERSION = 0.015;
 
 sub play {
     my ($class, $EDEBUG, $KEYDEBUG, $GDEBUG, $FPS) = @_;
@@ -39,7 +39,7 @@ __END__
 
 SDL::Tutorial::Tetris - tetris game using SDL
 
-=head2 USAGE
+=head1 USAGE
 
 	perl -MSDL::Tutorial::Tetris
 

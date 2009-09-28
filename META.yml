@@ -1,6 +1,6 @@
 ---
 name: SDL-Tutorial-Tetris
-version: 0.01
+version: 0.015
 author: []
 abstract: tetris game using SDL
 license: perl
@@ -15,7 +15,7 @@ configure_requires:
 provides:
   SDL::Tutorial::Tetris:
     file: lib/SDL/Tutorial/Tetris.pm
-    version: 0.01
+    version: 0.015
   SDL::Tutorial::Tetris::Base:
     file: lib/SDL/Tutorial/Tetris/Base.pm
     version: 0.01

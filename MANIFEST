@@ -16,7 +16,6 @@ MANIFEST
 MANIFEST.SKIP
 META.yml
 README
-t/001_load.t
 t/block-init.t
 t/block-type.t
 t/event-manager.t
