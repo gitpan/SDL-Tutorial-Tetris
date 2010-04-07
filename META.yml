@@ -1,21 +1,18 @@
 ---
-name: SDL-Tutorial-Tetris
-version: 0.02
+abstract: 'tetris game using SDL(2)'
 author: []
-abstract: tetris game using SDL(2)
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  Class::XSAccessor: 1.03
-  Readonly: 1.03
-  SDL: v2.2.2.17
 configure_requires:
-  Module::Build: 0.34
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: SDL-Tutorial-Tetris
 provides:
   SDL::Tutorial::Tetris:
     file: lib/SDL/Tutorial/Tetris.pm
-    version: 0.02
+    version: 0.04
   SDL::Tutorial::Tetris::Base:
     file: lib/SDL/Tutorial/Tetris/Base.pm
     version: 0.01
@@ -33,7 +30,10 @@ provides:
     file: lib/SDL/Tutorial/Tetris/Model/Pieces.pm
   SDL::Tutorial::Tetris::View::Game:
     file: lib/SDL/Tutorial/Tetris/View.pm
-generated_by: Module::Build version 0.34
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+requires:
+  Class::XSAccessor: 1.03
+  Readonly: 1.03
+  SDL: 2.4
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.04

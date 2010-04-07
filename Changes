@@ -1,5 +1,8 @@
 Revision history for Perl module SDL::Tutorial::Tetris
 
+0.04 
+	- Made it work with SDL 2.4
+
 0.02 Thr Oct 1  2009
 	- Design refactoring (nferraz)
 	- Made moving left or  right accruate

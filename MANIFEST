@@ -1,4 +1,3 @@
-Build
 Build.PL
 Changes
 lib/SDL/Tutorial/Tetris.pm
@@ -11,11 +10,11 @@ lib/SDL/Tutorial/Tetris/Model/Grid.pm
 lib/SDL/Tutorial/Tetris/Model/Pieces.pm
 lib/SDL/Tutorial/Tetris/View.pm
 LICENSE
-MANIFEST
+MANIFEST			This list of files
 MANIFEST.SKIP
-META.yml
 README
 t/event-manager.t
 t/grid.t
 Tetris.pl
 Todo
+META.yml
